@@ -1,0 +1,108 @@
+.person4{
+    width: 70px;
+height: 70px;
+object-fit: contain;
+border-radius: 16px;
+   
+}
+
+.testimonial_agent{
+    display: flex;
+    margin-top: 10px;
+   
+}
+
+.testimonial_heading{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+/* width: 280px; */
+height: 180px;
+/* Gray 1 */
+
+margin-bottom: 50px;
+margin-top: 60px;
+color: #333333;
+}
+
+.tes_content{
+    margin-left: 20px;
+}
+
+.tes_name{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+margin-bottom: 10px;
+/* Gray 1 */
+width: 140px;
+height: 36px;
+
+color: #333333;
+}
+
+.tes_role{
+    font-family: 'Poppins', sans-serif;
+    /* width: 100px; */
+height: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+/* identical to box height */
+
+
+/* Gray 3 */
+
+color: #828282;
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonial_heading{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+line-height: 54px;
+    width: 937px;
+    height: 162px;
+    
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: #333333;
+    }
+    .person4{
+        width: 125px;
+height: 152px;
+    object-fit: contain;
+    border-radius: 20%;
+       
+    }
+    .tes_content{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .tes_name{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    margin-bottom: 10px;
+    /* Gray 1 */
+    width: 140px;
+height: 36px;
+    
+    color: #333333;
+    }
+
+}

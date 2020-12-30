@@ -1,0 +1,149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    height: 53px;
+}
+
+.logo > a{
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 53px;
+color: #333333;
+}
+
+.navlinks > li > a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #333333;
+}
+
+.hamburger-toggle{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    body{
+       overflow-x:  hidden;
+    }
+
+    .hamburger-toggle{
+        display: block;
+    }
+
+.navlinks{
+    display: none;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    align-items: center;
+    width: 100%;
+    top: 10vh;
+    color: white;
+    background: rgba(0, 151, 19, 1);
+    opacity: 2;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+} 
+ .active{
+    transform: translateX(0%);
+}
+
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    height: 53px;
+}
+
+.logo > a{
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 53px;
+color: #333333;
+}
+
+.navlinks > li > a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #333333;
+}
+
+.hamburger-toggle{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    body{
+       overflow-x:  hidden;
+      
+    }
+
+    .hamburger-toggle{
+        display: block;
+    }
+
+.navlinks{
+    display: none;
+    /* display: none;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    align-items: center;
+    width: 100%;
+    top: 10vh;
+    color: white;
+    background: rgba(0, 151, 19, 2.5);
+    opacity: 2;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in; */
+}
+.active{
+    transform: translateX(0%);
+}
+
+}

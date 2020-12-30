@@ -75,10 +75,10 @@ color: #2D9CDB;
 @media screen and (min-width: 1024px) {
  .design_contents{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: row !important;
+        justify-content: center !important;
       /* margin-top: 30px; */
-      flex-wrap: wrap;
+      flex-wrap: wrap !important;
      
      
     }
@@ -88,8 +88,8 @@ color: #2D9CDB;
 
 
     .right_content{
-        display: flex;
-        flex-direction: row;
+        display: flex !important;
+        flex-direction: row !important;
     }
 
     .design_title{
@@ -107,10 +107,10 @@ color: #2D9CDB;
 
    
 .design_contents >div:nth-child(2){
-     padding-bottom: 9em;
+     padding-bottom: 9em !important;
 }
 .design_contents >div:nth-child(4){
-    padding-bottom: 9em;
+    padding-bottom: 9em !important;
 }
 
 .design_heading{
